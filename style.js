@@ -30,4 +30,20 @@ $(function(){
       'scrollTop':3125
     },1000)
   });
-})
+  $('.back-title').click(
+    function(){
+      $('#good').fadeOut(2000);
+      $('#bad').fadeOut(2000);
+    }
+  )
+  $('.good-point').click(
+    function(){
+     $('#good').fadeIn(2000);
+    }
+  );
+  $('.bad-point').click(
+    function(){
+     $('#bad').fadeIn(2000);
+    }
+  );
+});

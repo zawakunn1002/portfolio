@@ -119,26 +119,48 @@ td {
 .back-title {
   text-align: center;
   padding: 20px;
+  cursor: pointer;
 }
 
 .good-point {
   width: 50%;
   height: 80%;
   float: left;
+  cursor: pointer;
 }
 
 .good-point-title {
   text-align: center;
 }
 
+.good-point-text {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.good-point h3 {
+  text-align: left;
+  padding: 25px 0 25px 100px;
+  font-size: 23px;
+  display: block;
+}
+
 .bad-point {
   width: 50%;
   height: 80%;
   float: left;
+  cursor: pointer;
 }
 
 .bad-point-title {
   text-align: center;
+}
+
+.bad-point h3 {
+  text-align: left;
+  padding: 25px;
+  font-size: 23px;
+  display: block;
 }
 
 .last {
