@@ -105,10 +105,16 @@ td {
 
 .demo-url {
   cursor: pointer;
-  line-height: 500px;
-  font-size: 80px;
+  line-height: 450px;
+  font-size: 120px;
   margin-left: 300px;
   color: black;
+  border: 0px;
+  text-decoration: none;
+}
+
+.demo-url:hover {
+  text-decoration: none;
 }
 
 .look-back {
