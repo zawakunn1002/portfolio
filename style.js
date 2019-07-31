@@ -32,8 +32,8 @@ $(function(){
   });
   $('.back-title').click(
     function(){
-      $('#good').fadeOut(2000);
-      $('#bad').fadeOut(2000);
+      $('#good').fadeOut(1000);
+      $('#bad').fadeOut(1000);
     }
   )
   $('.good-point').click(
